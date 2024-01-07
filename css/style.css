@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700;1,900&display=swap");
 
 * {
   margin: 0;
@@ -166,29 +166,126 @@ body {
 }
 .best_offer {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .best_offer .left_content {
-  width: 27%;
+  width: 33%;
 }
 .best_offer .left_content h3 {
   color: #f00;
-  text-align: center;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
 }
-.best_offer .left_content p {
+.best_offer .left_content h2 {
   color: #070211;
   font-family: Merriweather;
   font-size: 48px;
   font-weight: 900;
-  line-height: normal;
+  text-transform: capitalize;
+  margin-top: 15px;
+}
+.best_offer .left_content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 25px 0;
+}
+
+.best_offer .content_image img {
+  border: 15px solid #f00;
+  border-radius: 50%;
+  padding: 45px;
+}
+
+.best_offer .right_content {
+  float: left;
+  width: 22%;
+}
+.best_offer .right_content h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.best_offer .right_content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 30px 0;
+}
+
+/* portfollio section  */
+
+#portfollio_section {
+  margin: 120px 0;
+}
+.portfolio {
+}
+.portfolio .portfollio_title {
+  max-width:896px ;
+  width: 82.5%;
+}
+.portfolio .portfollio_title h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.portfolio .portfollio_title h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
   text-transform: capitalize;
 }
-.best_offer .left_content h3 {
-  color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px; /* 160% */
+.portfolio .portfollio_title p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; 
+  margin: 22px 0 48px 0;
+}
+.portfollio_content .row1,.portfollio_content .row2{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-bottom: 24px;
+}
+.portfollio{
+  width: 32%;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  transition:0.6s;
+  
+}
+.portfollio img{
+  width: 100%;
+  display: flex;
+}
+
+.hover{
+  width: 100%;
+  display: none;
+  height: 100%;
+  background-color: #64bcb97e;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+ justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 25px;
+}
+.portfollio:hover .hover{
+  display: flex;
 }
