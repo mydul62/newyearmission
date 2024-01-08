@@ -28,6 +28,12 @@ body {
   margin-top: 48px;
   border: none;
 }
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 /* header css  */
 
 #main_header {
@@ -109,6 +115,9 @@ body {
 .party_content .party_title {
   max-width: 697px;
   width: 82.5%;
+}
+.party_content img{
+  mix-blend-mode:;
 }
 .party_content .party_title h2 {
   color: #fff;
@@ -228,6 +237,77 @@ body {
   line-height: 32px;
   margin: 30px 0;
 }
+.discount_content > .image{
+  display: flex;
+  justify-content: center;
+
+}
+/* holiday sale  */
+
+.holidays_sele {
+}
+.holidays_content {
+  padding: 80px 0;
+}
+.holidays_content .discription {
+  max-width: 1068px;
+  width: 82%;
+  margin: 0 auto;
+  text-align: center;
+}
+.holidays_content .discription h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holidays_content .discription h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 16px 0 28px 0;
+}
+.holidays_content .discription p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.hoiday_bannaer .lower {
+  border-radius: 16px 0px 16px 16px;
+  background: #f00;
+  height: 229px;
+  position: relative;
+}
+/* .hoiday_bannaer .lower img{
+  top:100;
+  left: 0;
+  position: absolute;
+} */
+img{
+  display: flex;
+  align-items: end;
+}
+.hoiday_bannaer .upper {
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.upper> img{
+  left: 0;
+  top: 10px;
+  position: absolute;
+  z-index: 6;
+}
+.discount_image{
+position: absolute;
+right: 64%;
+top: 15%;
+}
 
 /* portfollio section  */
 
@@ -309,6 +389,10 @@ body {
   background: rgba(255, 0, 0, 0.05);
   padding: 80px 0;
 }
+.newslatter .massage_img{
+  display: flex;
+  justify-content: center;
+}
 .newslatter .discription {
   max-width: 896px;
   width: 82%;
@@ -362,25 +446,49 @@ footer {
 }
 footer hr {
   margin: 50px 0;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
 }
-.footer_upper {
+.footer_dis {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.left_content {
+.left_item {
   width: 36%;
 }
-.left_content p, {
+.left_item p,
+.right_item li,
+.right_item a {
   color: #fff;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
   line-height: 40px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
-.right_content {
+.right_item {
   padding-right: 135px;
 }
-.right_content ul li {
-  list-style: none;
+
+.right_item .fa-solid {
+  padding-right: 15px;
+}
+.footer_middle ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.l_content p,
+.r_content p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
 }
