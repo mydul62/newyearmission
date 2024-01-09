@@ -304,14 +304,12 @@ img {
 .hoiday_bannaer .lower {
   border-radius: 16px 0px 16px 16px;
   background-image: url("../images/Rectangle\ 2.png");
-  background-blend-mode:multiply;
   height: 229px;
 }
 .lower {
   position: relative;
 }
 .lower img {
-  background-blend-mode: darken;
   position: absolute;
   bottom: 0;
   left: 0;
