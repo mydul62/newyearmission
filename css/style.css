@@ -185,11 +185,11 @@ a {
 }
 .best_offer {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 .best_offer .left_content {
   width: 31%;
+  margin-top: 100px;
 }
 .best_offer .left_content h3 {
   color: #f00;
@@ -224,6 +224,7 @@ a {
   float: left;
   width: 22%;
   margin-left: 30px;
+  margin-top: 100px;
 }
 .best_offer .right_content h2 {
   color: #f00;
@@ -303,13 +304,14 @@ img {
 .hoiday_bannaer .lower {
   border-radius: 16px 0px 16px 16px;
   background-image: url("../images/Rectangle\ 2.png");
+  background-blend-mode:multiply;
   height: 229px;
 }
 .lower {
   position: relative;
 }
 .lower img {
-  background-color: #0000000d;
+  background-blend-mode: darken;
   position: absolute;
   bottom: 0;
   left: 0;
