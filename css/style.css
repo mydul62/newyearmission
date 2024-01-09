@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,900&display=swap");
 
 * {
   margin: 0;
@@ -52,17 +52,17 @@ a {
   width: 82%;
   margin: 0 auto;
 }
-.header_banner .banner_title p {
+.header_banner .banner_title h3 {
   color: #fff;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 32px;
   font-weight: 400;
 }
 .header_banner .banner_title h1 {
   color: #fff;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 72px;
   font-weight: 900;
   line-height: 95px;
@@ -78,15 +78,15 @@ a {
 .discount_content h1 {
   color: #f00;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 88px;
   font-weight: 700;
   padding-bottom: 48px;
 }
-.discount_content p {
+.discount_content h3 {
   color: #f00;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -94,7 +94,7 @@ a {
 .discount_content h2 {
   color: #070211;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 48px;
   font-weight: 700;
   padding-bottom: 48px;
@@ -123,7 +123,7 @@ a {
 }
 .party_content .party_title h2 {
   color: #fff;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 64px;
   font-weight: 900;
   line-height: 88px;
@@ -131,8 +131,8 @@ a {
 }
 .party_content .party_title p {
   color: rgba(255, 255, 255, 0.8);
-  font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
   font-weight: 400;
   line-height: 30px;
   margin: 24px 0 48px 0;
@@ -140,7 +140,7 @@ a {
 .party_content .party_title .btn_water {
   color: #fff;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -193,13 +193,13 @@ a {
 }
 .best_offer .left_content h3 {
   color: #f00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
 .best_offer .left_content h2 {
   color: #070211;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 48px;
   font-weight: 900;
   text-transform: capitalize;
@@ -207,7 +207,7 @@ a {
 }
 .best_offer .left_content p {
   color: rgba(7, 2, 17, 0.6);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
@@ -228,13 +228,13 @@ a {
 }
 .best_offer .right_content h2 {
   color: #f00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 48px;
   font-weight: 700;
 }
 .best_offer .right_content p {
   color: rgba(7, 2, 17, 0.6);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
@@ -259,22 +259,27 @@ a {
 }
 .holidays_content .discription h3 {
   color: #070211;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
 .holidays_content .discription h1 {
-  color: #f00;
-  text-align: center;
-  font-family: 'Merriweather', serif;
+  color: #070211;
+  font-family: "Merriweather", serif;
   font-size: 72px;
+  font-style: normal;
   font-weight: 900;
+  line-height: normal;
   margin: 16px 0 28px 0;
 }
+.holidays_content .discription h1 span{
+  color: #f00;
+}
+
 .holidays_content .discription p {
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 32px;
@@ -326,21 +331,21 @@ img {
 }
 .portfolio .portfollio_title h3 {
   color: #f00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 16px;
 }
 .portfolio .portfollio_title h1 {
   color: #070211;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 48px;
   font-weight: 900;
   text-transform: capitalize;
 }
 .portfolio .portfollio_title p {
   color: rgba(7, 2, 17, 0.6);
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
@@ -350,16 +355,18 @@ img {
 .portfollio_content {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 25px;
+  justify-content: center;
 }
 
 .portfollio {
-  width: 32%;
+  width: 31.5%;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   border-radius: 15px;
-  transition: 0.6s;
+  
 }
+
 .portfollio img {
   width: 100%;
   display: flex;
@@ -367,28 +374,31 @@ img {
 
 .hover {
   width: 100%;
-  display: none;
+  display: flex;
   height: 100%;
   background-color: #64bcb97e;
   position: absolute;
   left: 0;
   top: 0;
-  border-radius: 15px;
+  border-radius: 10px;
   justify-content: center;
   align-items: center;
   color: #fff;
   font-size: 25px;
+  opacity: 0;
+  transition: 0.3s;
+}
+.portfollio:hover .hover {
+  opacity: 1;
 }
 .hover h1 {
   color: #fff;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 20px;
   font-weight: 700;
 }
-.portfollio:hover .hover {
-  display: flex;
-}
+
 
 /* newlalatter section  */
 
@@ -413,7 +423,7 @@ img {
 .newslatter .discription h1 {
   color: #070211;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-size: 48px;
   font-weight: 900;
   text-transform: capitalize;
@@ -422,7 +432,7 @@ img {
 .newslatter .discription p {
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
@@ -469,11 +479,11 @@ footer hr {
 .left_item {
   width: 36%;
 }
-.left_item p,
+.left_item h3,
 .right_item li,
 .right_item a {
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 40px;
@@ -493,10 +503,10 @@ footer hr {
   justify-content: center;
   gap: 24px;
 }
-.l_content p,
-.r_content p {
+.l_content h3,
+.r_content h3 {
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
   line-height: 40px;
