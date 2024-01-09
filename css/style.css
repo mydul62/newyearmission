@@ -316,7 +316,7 @@ img {
 }
 .lower img {
   position: absolute;
-  bottom: 0;
+  bottom: 55px;
   left: 0;
 }
 /* portfollio section  */
